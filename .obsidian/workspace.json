@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0a7a2c3c99c21279",
+        "id": "ec65ce742f3473ee",
         "type": "tabs",
         "children": [
           {
-            "id": "acea2d3555a52428",
+            "id": "bc9eaaa9feb19ae7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -40,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -162,9 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "acea2d3555a52428",
+  "active": "adf61f1f636d78f1",
   "lastOpenFiles": [
-    "Obsidian-studying-template/Semester 1/Course 1.md",
-    "README.md"
+    "Obsidian-studying-template/_utilities/Today.md",
+    "Obsidian-studying-template/_utilities/Someday.md",
+    "Obsidian-studying-template/_utilities/Projects.canvas",
+    "Obsidian-studying-template/_utilities/Inbox.md",
+    "Obsidian-studying-template/_utilities/Finished.md",
+    "Obsidian-studying-template/_utilities/Deadlines.md",
+    "Obsidian-studying-template/_utilities/Anytime.md",
+    "README.md",
+    "Obsidian-studying-template/Semester 1/Course 1.md"
   ]
 }

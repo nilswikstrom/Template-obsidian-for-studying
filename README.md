@@ -3,6 +3,7 @@ A repo for my template using Obsidian.md for studying
 
 ---
 ## Recommended plugins
+- Tasks
 - Dataview
 - Spaced Repetition ("flashcards")
 - Minimal Theme Settings (only needed if you use Minimal theme)

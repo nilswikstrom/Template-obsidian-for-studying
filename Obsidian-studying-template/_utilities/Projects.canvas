@@ -1,0 +1,71 @@
+{
+	"edges":[
+		{
+			"fromNode":"904c115ff28afac9",
+			"fromSide":"right",
+			"id":"4c73e189d377dceb",
+			"styleAttributes":{},
+			"toNode":"6af861bf4aaf4d4b",
+			"toSide":"left"
+		},
+		{
+			"fromNode":"6af861bf4aaf4d4b",
+			"fromSide":"right",
+			"id":"66b27b5ec5409085",
+			"styleAttributes":{},
+			"toNode":"8c6df6a9ef6a9d69",
+			"toSide":"left"
+		},
+		{
+			"fromNode":"8c6df6a9ef6a9d69",
+			"fromSide":"right",
+			"id":"192dade09e93804c",
+			"styleAttributes":{},
+			"toNode":"e2703cd4e32e9b66",
+			"toSide":"left"
+		}
+	],
+	"metadata":{},
+	"nodes":[
+		{
+			"height":222,
+			"id":"904c115ff28afac9",
+			"styleAttributes":{},
+			"text":"# All projects\n```dataview\nLIST rows.file.link\nFROM \"Projects\"\nGROUP BY status\n```\n",
+			"type":"text",
+			"width":340,
+			"x":-1040,
+			"y":-92
+		},
+		{
+			"height":977,
+			"id":"6af861bf4aaf4d4b",
+			"styleAttributes":{},
+			"text":"# Holding Tank\n## Projects\n```dataview\nTABLE course as \"Course\", deadline as \"Deadline\"\nFROM #school and -\"_templates\"\nWHERE status = \"holding-tank\"\nSORT deadline ASC\n```\n## Tasks\n```tasks\nnot done\n(tags include assignment) OR (tags include report) OR (tags include test) OR (tags include lab)\ntags does not include active\nhide backlink\nhide tags\n```\n",
+			"type":"text",
+			"width":420,
+			"x":-660,
+			"y":-469
+		},
+		{
+			"height":1326,
+			"id":"e2703cd4e32e9b66",
+			"styleAttributes":{},
+			"text":"# Done\n## Projects\n```dataview\nTABLE course as \"Course\", deadline as \"Deadline\"\nFROM #school and -\"_templates\"\nWHERE status = \"done\"\nSORT deadline ASC\n```\n## Tasks\n```tasks\ndone\n(tags include assignment) OR (tags include report) OR (tags include test) OR (tags include lab)\ntags does not include active\nshow tree\nhide backlink\nhide tags\n```\n",
+			"type":"text",
+			"width":420,
+			"x":260,
+			"y":-643
+		},
+		{
+			"height":422,
+			"id":"8c6df6a9ef6a9d69",
+			"styleAttributes":{},
+			"text":"# Active\n## Projects\n```dataview\nTABLE course as \"Course\", deadline as \"Deadline\"\nFROM #school and -\"_templates\"\nWHERE status = \"active\"\nSORT deadline ASC\n```\n## Tasks\n```tasks\nnot done\ntags include active\nhide backlink\nhide tags\n# (tags include assignment) OR (tags include report) OR (tags include test) OR (tags include lab)\n```",
+			"type":"text",
+			"width":420,
+			"x":-200,
+			"y":-192
+		}
+	]
+}

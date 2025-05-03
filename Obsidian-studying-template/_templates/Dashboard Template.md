@@ -4,6 +4,9 @@ ___
 
 ## Notes and Ideas
 - [[{{title}} Outline]]
+- [[{{title}} Canvas]]
+## Courses
+- 
 ## Assignments
 ## Forelesninger
 ## Extras
